@@ -9,4 +9,4 @@ HTML FILE
 
 JAVASCRIPT FILE
 -----------------------------------
-- The javacript file *showRows.js* contains a javascript function that takes two parameters, the id of the table and the numbe of rows to show at a time.
+- The javacript file *showRows.js* contains a javascript function that takes two parameters, the id of the table and the number of rows to show at a time.
