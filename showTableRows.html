@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SHOW/HIDE TABLE ROWS</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+
+<div class="row">
+	<div class="col-sm-offset-3 col-sm-5">
+		<h2>PAGINATED TABLE SAMPLE</h2>
+		<div class="table-responsive">
+            <table id="apprvSivSmry" class="table table-bordered">
+                <thead>
+                <tr style="background-color:#900;color:white;">
+                    <th>S/No</th>
+                    <th>Request ID</th>
+                    <th>Name</th>
+                    <th>Status</th>
+                </tr>
+                </thead>
+                <tr>
+                	<td>1</td>
+                	<td>21999/390</td>
+                	<td>Sesugh</td>
+                	<td>Pending</td>
+                </tr>
+                <tr>
+                	<td>2</td>
+                	<td>46789/300</td>
+                	<td>Tersoo</td>
+                	<td>Approved</td>
+                </tr>
+                <tr>
+                	<td>3</td>
+                	<td>67094/320</td>
+                	<td>Bemdoo</td>
+                	<td>Pending</td>
+                </tr>
+                <tr>
+                	<td>4</td>
+                	<td>87234/302</td>
+                	<td>Terhemen</td>
+                	<td>Pending</td>
+                </tr>
+            </table>
+	</div>
+</div>
+</div>
+
+
+</body>
+<script type="text/javascript">
+//on page load call the showRows function
+$(document).ready(function () {
+
+    showRows(apprvSivSmry, 2);
+
+ })	
+</script>
+<script src="showRows.js"></script>
+</html>
